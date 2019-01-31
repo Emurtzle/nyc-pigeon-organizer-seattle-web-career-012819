@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
     v.each do |element|
       element.each do |name|
         binding.pry
+      end
     end
   end
 
