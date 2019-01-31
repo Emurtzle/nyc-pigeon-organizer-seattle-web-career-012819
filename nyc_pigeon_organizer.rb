@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
           results[name] = {k << [element[0].to_s]}
         end
       end
+      binding.pry
     end
   end
 
