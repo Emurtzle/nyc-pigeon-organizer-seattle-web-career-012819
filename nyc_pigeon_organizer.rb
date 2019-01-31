@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     v.each do |element|
       element[1].each do |name|
         if results.keys.include?(name) == false
-          results[name] = Hash.new
+          results[name] = {}
           binding.pry
         end
       end
