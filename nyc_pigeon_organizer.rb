@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   data.each do |k, v|
 
     v.each do |element|
-      element.each do |name|
+      element[1].each do |name|
         binding.pry
       end
     end
