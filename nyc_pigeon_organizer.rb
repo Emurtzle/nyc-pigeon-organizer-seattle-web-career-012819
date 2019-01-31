@@ -8,7 +8,8 @@ def nyc_pigeon_organizer(data)
       element[1].each do |name|
         if results.keys.include?(name) == false
           results[name] = {k => [element[0].to_s]}
-          binding.pry
+        else
+          results[name] = {k << [element[0].to_s]}
         end
       end
     end
