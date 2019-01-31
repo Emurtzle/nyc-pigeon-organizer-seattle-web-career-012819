@@ -5,6 +5,10 @@ def nyc_pigeon_organizer(data)
 
   data.each do |k, v|
     binding.pry
+
+    v.each do |element|
+      binding.pry
+    end
   end
 
 
