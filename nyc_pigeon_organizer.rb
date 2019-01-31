@@ -1,16 +1,17 @@
 require "pry"
 
 def nyc_pigeon_organizer(data)
-  new_hash = {}
+  results = {}
 
   data.each do |k, v|
 
     v.each do |element|
-      binding.pry
+      element.each do |name|
+        binding.pry
     end
   end
 
 
 
-  new_hash
+  results
 end
